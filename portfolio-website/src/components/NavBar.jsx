@@ -1,17 +1,19 @@
-import Logo from '../assets/okay.jpeg' //variable name + the path where its from
-//<img src={Logo} alt=""/> {/*needs alt text to display if img doesnt load*/}
+import { NavLink } from 'react-router-dom'
 
 function NavBar() {
     return (
-       
-        <div   className="navbar">
-            <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact Me</li>
-            </ul>
-        </div>
+       <nav>
+        <ul>
+            <li>
+                <NavLink to="/" exact>
+                Home
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to="/about"> About Me </NavLink>
+            </li>
+        </ul>
+       </nav>
         
     )
 }

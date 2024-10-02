@@ -12,6 +12,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
+    <NavBar />
       <Routes>
         <Route path="/home" element={<Home />} /> { /* renders the home page when url is http:local:/home */}
         <Route index element={<Home />} /> {/* renders the home page when url is http:local:5713/ */}
@@ -20,6 +21,7 @@ function App() {
         <Route path="/about" element={<About />} />
       </Routes>
     </BrowserRouter>
+    
     </>
   )
 }

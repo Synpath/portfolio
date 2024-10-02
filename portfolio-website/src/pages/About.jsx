@@ -8,7 +8,6 @@ function About () {
             Whoa! Chainsaw Man is pretty good
         </h1>
          <img src={Logo} alt=""/> {/*needs alt text to display if img doesnt load*/}
-         <h1>About</h1>
         </div> 
     )
 }
