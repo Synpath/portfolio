@@ -3,7 +3,7 @@ import Logo from "../assets/okay.jpeg"
 
 function About () {
     return (
-        <div>
+        <div className="About">
         <h1> 
             Whoa! Chainsaw Man is pretty good
         </h1>
