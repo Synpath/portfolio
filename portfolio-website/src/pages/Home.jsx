@@ -3,7 +3,7 @@ import Logo from '../assets/victory.jpg'
 
 function About () {
     return (
-        <div className="App">
+        <div className="Home">
         <h1>
           Supreme   
           <img src={Logo} alt="" width="200" height="200"/>
