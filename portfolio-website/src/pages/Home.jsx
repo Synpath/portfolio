@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/victory.jpg'
+import '../css/Home.css'
 
 function About () {
     return (
