@@ -16,8 +16,7 @@ function NavBar() {
                 Home
                 </NavLink>
             </li>
-            
-            
+             
         </ul>
        </nav>
         
